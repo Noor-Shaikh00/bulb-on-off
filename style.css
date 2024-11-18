@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn button{
+    width: 8rem;
+    padding: 10px;
+    margin: 5px;
+    font-size: 2vw;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+
+}
+
+@media (max-width : 600px) {
+    
+.btn button{
+    width: 7rem;
+    padding: 10px;
+    margin: 6px;
+    font-size: 5vw;
+    font-weight: 600;
+
+
+}
+}
